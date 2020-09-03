@@ -1,5 +1,7 @@
 $color-primary: #0F205E;
-$color-secondary: #fdc500;
+$color-secondary: #f4d35e;
+$color-accent: #f95738;
+$color-special: #ee964b;
 
 h1 {
     color: $color-primary;
@@ -11,4 +13,10 @@ p {
 
 @mixin spacing {
     padding: 10;
+}
+
+
+.btn {
+    background-color: $color-accent;
+    color: white;
 }

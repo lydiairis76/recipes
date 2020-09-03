@@ -8,9 +8,10 @@ export default function recipeTemplate({data}) {
         <Layout>
             <h2>{recipe.name}</h2>
             <img src={recipe.image.file.url} alt={recipe.name} class="img-thumbnail" />
-            <p>
+            <ul>
+      
                 {recipe.description.description}
-            </p>
+            </ul>
 
         </Layout>
     )
