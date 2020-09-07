@@ -7,6 +7,10 @@ h1 {
     color: $color-primary;
 }
 
+h2 {
+    color: $color-accent;
+}
+
 p {
     color: $color-primary;
 }
@@ -20,3 +24,17 @@ p {
     background-color: $color-accent;
     color: white;
 }
+
+
+.img-thumbnail {
+    height: 400px;
+    float: left;
+    padding: 0px 20px;
+    border: none;
+}
+
+.jumbotron{ 
+	background-image: url('https://images.unsplash.com/photo-1484632105053-8662f3194e7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2719&q=80'); 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+}  

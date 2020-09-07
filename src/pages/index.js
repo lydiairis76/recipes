@@ -10,10 +10,9 @@ export default function Home({data}) {
   <header class="blog-header py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
       <div class="col-4 pt-1">
-        <a class="text-muted" href="#">Subscribe</a>
+        <a class="text-muted" href="#">About</a>
       </div>
       <div class="col-4 text-center">
-        <img src="plate.png"  alt="plate" height="80px"/>
       </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
         <a class="text-muted" href="#" aria-label="Search">
@@ -26,13 +25,13 @@ export default function Home({data}) {
 
   <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex">
-      <a class="p-2 text-muted" href="#">About</a>
-      <a class="p-2 text-muted" href="#">subscribe</a>
+    
     </nav>
   </div>
 
   <div class="jumbotron p-4 p-md-5">
     <div class="col-md-6 px-0">
+    <img src="" />
       <h1 class="display-4">Clean Plate</h1>
       <p class="lead my-3">Recipes high in flavor and low in effort.</p>
       <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
