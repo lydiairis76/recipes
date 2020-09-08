@@ -15,11 +15,6 @@ p {
     color: $color-primary;
 }
 
-@mixin spacing {
-    padding: 10;
-}
-
-
 .btn {
     background-color: $color-accent;
     color: white;
@@ -27,8 +22,8 @@ p {
 
 
 .img-thumbnail {
-    height: 400px;
-    float: left;
+    height: 600px;
+    float: right;
     padding: 0px 20px;
     border: none;
 }
@@ -38,3 +33,7 @@ p {
 	background-size: cover; 
 	background-repeat: no-repeat; 
 }  
+
+.title {
+    padding: 20px 0px;
+}

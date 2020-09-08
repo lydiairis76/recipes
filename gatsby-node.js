@@ -7,20 +7,24 @@ exports.createPages = ({ actions, graphql }) => {
   
     return graphql(`
         {
-            allContentfulRecipes {
-                nodes {
-                    name
-                    description {
-                        description
-                    }
-                    image {
-                        file {
-                            url
-                        }
-                    }
+        allContentfulRecipes {
+            nodes {
+              name
+              image {
+                file {
+                  url
                 }
+              }
+              richTextDescription {
+                json
+              }
             }
+          }
         }
+        
+        
+        
+
     `).then(result => {
       if (result.errors) {
         return Promise.reject(result.errors)

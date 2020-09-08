@@ -24,16 +24,14 @@ export default function Home({data}) {
   </header>
 
   <div class="nav-scroller py-1 mb-2">
-    <nav class="nav d-flex">
-    
-    </nav>
+    <nav class="nav d-flex" />
   </div>
 
   <div class="jumbotron p-4 p-md-5">
     <div class="col-md-6 px-0">
     <img src="" />
       <h1 class="display-4">Clean Plate</h1>
-      <p class="lead my-3">Recipes high in flavor and low in effort.</p>
+      <h2 class="lead my-3">Recipes high in flavor and low in effort.</h2>
       <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
     </div>
   </div>
