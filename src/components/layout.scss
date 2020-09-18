@@ -15,6 +15,21 @@ p {
     color: $color-primary;
 }
 
+label {
+    color: $color-primary;
+}
+
+textarea {
+    margin: -25px 8px;
+    border-width: 1px;
+    border-color: black;
+}
+
+input {
+    margin: 10px 8px;
+    border-width: 1px;
+    border-color: black;
+}
 .btn {
     background-color: $color-accent;
     color: white;
@@ -36,4 +51,8 @@ p {
 
 .title {
     padding: 20px 0px;
+}
+
+.icon {
+    border-radius: 50%;
 }
